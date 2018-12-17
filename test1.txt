@@ -1,0 +1,10 @@
+ Volume in drive F is New Volume
+ Volume Serial Number is B4EA-9022
+
+ Directory of F:\DEVOPS-TUT\gitfolder
+
+12/17/2018  12:05 PM    <DIR>          .
+12/17/2018  12:05 PM    <DIR>          ..
+12/17/2018  12:05 PM                 0 test1.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  179,859,243,008 bytes free
