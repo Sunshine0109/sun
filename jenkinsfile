@@ -3,6 +3,7 @@ node{
   git 'https://github.com/javahometech/my-app'
   }
   stage ('Compile-Package'){
-  sh 'mvn package'
+  def mvnhome= tool name: 'Maven3', type: 'maven'
+  bat "C:\Users\Shilpa1\Downloads\New folder\apache-maven-3.6.1"
   }
   }
