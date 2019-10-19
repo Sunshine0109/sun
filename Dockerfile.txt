@@ -1,4 +1,4 @@
 From ubuntu:16.04
 ENV DEBIAN_FRONTEND noninteractive
-MAINTAINER "VENKAT451@GMAIL.COM"
+MAINTAINER "kvenkat451@gmail.com"
 Run apt-get update && apt-get install -y ubuntu-server ubuntu-desktop
