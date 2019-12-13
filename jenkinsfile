@@ -2,8 +2,14 @@ node{
   stage('SCM Checkout'){
   git 'https://github.com/Sunshine0109/sun'
   }
-  stage ('Compile-Package'){
-  def mvnhome= tool name: 'Maven3', type: 'maven'
-  bat "C:\Users\Shilpa1\Downloads\New folder\apache-maven-3.6.1"
-  }
-  }
+  stages {
+      stage('Initialize') {
+             steps {
+                  bat ***
+                      echo "PATH = %PATH%"
+                      echo "M2_MAVEN = %M2_HOME%"
+                      ***
+                    }
+            }
+         }
+      }   
