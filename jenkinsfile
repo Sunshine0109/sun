@@ -5,10 +5,10 @@ node{
   stages {
       stage('Initialize') {
              steps {
-                  bat ***
+                  bat 
                       echo "PATH = %PATH%"
                       echo "M2_MAVEN = %M2_HOME%"
-                      ***
+                      
                     }
             }
          }
